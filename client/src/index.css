@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 20%;
+  --muted: 60 5% 96%;
+  --muted-foreground: 25 5% 45%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 20%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 20%;
+  --border: 20 6% 90%;
+  --input: 20 6% 90%;
+  --primary: 122 39% 49%; /* #2E7D32 */
+  --primary-foreground: 0 0% 98%;
+  --secondary: 19 16% 35%; /* #795548 */
+  --secondary-foreground: 0 0% 98%;
+  --accent: 30 100% 50%; /* #FF6F00 */
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 20 14% 4%;
+  --radius: 0.5rem;
+  
+  /* Custom colors */
+  --primary-light: 122 39% 59%; /* #4CAF50 */
+  --secondary-light: 19 16% 55%; /* #A1887F */
+  --earth-50: 0 0% 98%; /* #FAFAFA */
+  --earth-100: 0 0% 96%; /* #F5F5F5 */
+  --earth-900: 0 0% 20%; /* #333333 */
+}
+
+.dark {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 98%;
+  --muted: 240 4% 16%;
+  --muted-foreground: 240 5% 65%;
+  --popover: 240 10% 4%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 4%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 4% 16%;
+  --input: 240 4% 16%;
+  --primary: 122 39% 49%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 19 16% 35%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 30 100% 50%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62% 31%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 5% 84%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-inter antialiased bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .text-primary {
+    color: hsl(var(--primary));
+  }
+  
+  .text-primary-light {
+    color: hsl(var(--primary-light));
+  }
+  
+  .text-secondary {
+    color: hsl(var(--secondary));
+  }
+  
+  .text-secondary-light {
+    color: hsl(var(--secondary-light));
+  }
+  
+  .text-accent {
+    color: hsl(var(--accent));
+  }
+  
+  .text-earth-50 {
+    color: hsl(var(--earth-50));
+  }
+  
+  .text-earth-100 {
+    color: hsl(var(--earth-100));
+  }
+  
+  .text-earth-900 {
+    color: hsl(var(--earth-900));
+  }
+  
+  .bg-primary {
+    background-color: hsl(var(--primary));
+  }
+  
+  .bg-primary-light {
+    background-color: hsl(var(--primary-light));
+  }
+  
+  .bg-secondary {
+    background-color: hsl(var(--secondary));
+  }
+  
+  .bg-secondary-light {
+    background-color: hsl(var(--secondary-light));
+  }
+  
+  .bg-accent {
+    background-color: hsl(var(--accent));
+  }
+  
+  .bg-earth-50 {
+    background-color: hsl(var(--earth-50));
+  }
+  
+  .bg-earth-100 {
+    background-color: hsl(var(--earth-100));
+  }
+  
+  .bg-earth-900 {
+    background-color: hsl(var(--earth-900));
+  }
+  
+  .border-primary {
+    border-color: hsl(var(--primary));
+  }
+  
+  .border-secondary {
+    border-color: hsl(var(--secondary));
+  }
+  
+  .border-accent {
+    border-color: hsl(var(--accent));
+  }
+  
+  .hover\:bg-primary-light:hover {
+    background-color: hsl(var(--primary-light));
+  }
+  
+  .hover\:text-primary:hover {
+    color: hsl(var(--primary));
+  }
+  
+  .hover\:text-primary-light:hover {
+    color: hsl(var(--primary-light));
+  }
+}
