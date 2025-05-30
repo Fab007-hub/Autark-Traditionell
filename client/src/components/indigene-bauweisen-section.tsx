@@ -17,8 +17,8 @@ export default function IndigeneBauweisenSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" 
-              alt="Adobe-Häuser" 
+              src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+              alt="Adobe-Lehmhäuser in traditioneller Bauweise" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">

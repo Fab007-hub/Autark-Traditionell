@@ -72,6 +72,12 @@ export default function Navigation() {
               </div>
 
               <button
+                onClick={() => scrollToSection("autark-rechner")}
+                className="text-earth-900 hover:text-primary px-3 py-2 text-sm font-medium transition-colors"
+              >
+                Autark-Rechner
+              </button>
+              <button
                 onClick={() => scrollToSection("ueber-mich")}
                 className="text-earth-900 hover:text-primary px-3 py-2 text-sm font-medium transition-colors"
               >
@@ -121,6 +127,12 @@ export default function Navigation() {
               className="block w-full text-left px-3 py-2 text-base font-medium text-earth-900 hover:text-primary"
             >
               Indigene Bauweisen
+            </button>
+            <button
+              onClick={() => scrollToSection("autark-rechner")}
+              className="block w-full text-left px-3 py-2 text-base font-medium text-earth-900 hover:text-primary"
+            >
+              Autark-Rechner
             </button>
             <button
               onClick={() => scrollToSection("ueber-mich")}
