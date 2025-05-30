@@ -54,6 +54,14 @@ export default function Footer() {
               </li>
               <li>
                 <button 
+                  onClick={() => scrollToSection("autark-rechner")}
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Autark-Rechner
+                </button>
+              </li>
+              <li>
+                <button 
                   onClick={() => scrollToSection("ueber-mich")}
                   className="text-gray-300 hover:text-white transition-colors"
                 >
