@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')"
+          backgroundImage: "url('https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')"
         }}
       />
       <div className="absolute inset-0 bg-black bg-opacity-50" />
@@ -38,7 +38,7 @@ export default function HeroSection() {
           <Button
             variant="outline"
             size="lg"
-            className="border-2 border-white text-white hover:bg-white hover:text-earth-900 px-8 py-3 text-lg font-semibold"
+            className="border-2 border-white bg-white/10 text-white hover:bg-white hover:text-earth-900 px-8 py-3 text-lg font-semibold backdrop-blur-sm"
             onClick={() => scrollToSection("indigene-bauweisen")}
           >
             Traditionen erforschen

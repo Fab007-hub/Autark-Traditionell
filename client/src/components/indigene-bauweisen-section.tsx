@@ -17,8 +17,8 @@ export default function IndigeneBauweisenSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Adobe-Lehmhäuser in traditioneller Bauweise" 
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+              alt="Adobe-Lehmhaus mit traditioneller Bauweise und Erde-Farben" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">
@@ -28,8 +28,8 @@ export default function IndigeneBauweisenSection() {
           </div>
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Traditionelle Pfahlbauten über Wasser" 
+              src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+              alt="Traditionelle Holz-Pfahlbauten am Wasser" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">
@@ -40,7 +40,7 @@ export default function IndigeneBauweisenSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
               src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Reetdachhaus mit traditioneller Strohdach-Technik" 
+              alt="Reetdachhaus mit traditionellem Strohdach" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">
@@ -51,7 +51,7 @@ export default function IndigeneBauweisenSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
               src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Traditionelle Natursteinbauten in bergiger Landschaft" 
+              alt="Traditionelle Steinbauten in bergiger Umgebung" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">
@@ -62,7 +62,7 @@ export default function IndigeneBauweisenSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Moderne Bambusarchitektur mit nachhaltiger Bauweise" 
+              alt="Bambushaus mit nachhaltiger Architektur" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">
@@ -72,8 +72,8 @@ export default function IndigeneBauweisenSection() {
           </div>
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Erdhaus mit natürlicher Integration in die Landschaft" 
+              src="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+              alt="Erdhaus in Hügel eingebaut mit natürlicher Tarnung" 
               className="w-full h-48 object-cover" 
             />
             <div className="p-6">

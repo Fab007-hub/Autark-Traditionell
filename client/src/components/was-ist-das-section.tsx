@@ -57,8 +57,8 @@ export default function WasIstDasSection() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Modernes Haus mit Solarpanels auf dem Dach" 
+                src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                alt="Solarpanels auf nachhaltigem Hausda ch mit grüner Umgebung" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -87,8 +87,8 @@ export default function WasIstDasSection() {
             </div>
             <div className="lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Regenwassersammlung mit Zisterne und Rohrsystem" 
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                alt="Regenwassersammeltank und nachhaltige Wassersysteme" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -117,8 +117,8 @@ export default function WasIstDasSection() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Nachhaltiges Haus mit Gründach und natürlicher Dämmung" 
+                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                alt="Energieeffizientes Haus mit Wärmedämmung und Gründach" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
             </div>
