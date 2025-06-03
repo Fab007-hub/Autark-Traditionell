@@ -87,7 +87,7 @@ export default function WasIstDasSection() {
             </div>
             <div className="lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                src="https://www.geo-mall.de/data/filemanager-upload/Blog/Regentonnen/regenfass-zum-sammeln-von-regenwasser.jpg" 
                 alt="Regenwassersammeltank und nachhaltige Wassersysteme" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />

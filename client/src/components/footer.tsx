@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Linkedin } from "lucide-react";
+
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -18,11 +18,7 @@ export default function Footer() {
               Ein Schulprojekt über die Verbindung zwischen nachhaltiger Hausgestaltung und indigenen 
               Bautechniken für eine autarke Zukunft.
             </p>
-            <div className="flex space-x-4">
-              <Instagram className="h-6 w-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Twitter className="h-6 w-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Linkedin className="h-6 w-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-            </div>
+
           </div>
           
           <div>

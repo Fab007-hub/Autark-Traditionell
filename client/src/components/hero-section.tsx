@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')"
+          backgroundImage: "url('https://blog.goodtravel.de/wp-content/uploads/2019/05/Opener_web-2.jpg')"
         }}
       />
       <div className="absolute inset-0 bg-black bg-opacity-50" />
